@@ -1,0 +1,12 @@
+{
+  "version": "0.2.1",
+  "defaults": {},
+  "configurations": [
+    {
+      "type": "default",
+      "project": "Kanban_test_project\\Form2.resx",
+      "projectTarget": "",
+      "name": "Form2.resx"
+    }
+  ]
+}

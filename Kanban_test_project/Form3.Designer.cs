@@ -1,6 +1,7 @@
-﻿namespace Kanban_test_project
+﻿
+namespace Kanban_test_project
 {
-    partial class Form1
+    partial class Form3
     {
         /// <summary>
         /// Required designer variable.
@@ -17,7 +18,6 @@
             {
                 components.Dispose();
             }
-
             base.Dispose(disposing);
         }
 
@@ -29,35 +29,34 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
-            // label1
+            // checkBox1
             // 
-            this.label1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Font = new System.Drawing.Font("Showcard Gothic", 72F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(150, 142);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(520, 144);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Всем пис";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(373, 121);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(80, 17);
+            this.checkBox1.TabIndex = 0;
+            this.checkBox1.Text = "checkBox1";
+            this.checkBox1.UseVisualStyleBackColor = true;
             // 
-            // Form1
+            // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label1);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Controls.Add(this.checkBox1);
+            this.Name = "Form3";
+            this.Text = "Form3";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
-        private System.Windows.Forms.Label label1;
-
         #endregion
+
+        private System.Windows.Forms.CheckBox checkBox1;
     }
 }
