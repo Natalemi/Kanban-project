@@ -1,0 +1,10 @@
+D:\My Project\RiderProjects\Kanban-project\Kanban_test_project\bin\Debug\Kanban_test_project.exe.config
+D:\My Project\RiderProjects\Kanban-project\Kanban_test_project\bin\Debug\Kanban_test_project.exe
+D:\My Project\RiderProjects\Kanban-project\Kanban_test_project\bin\Debug\Kanban_test_project.pdb
+D:\My Project\RiderProjects\Kanban-project\Kanban_test_project\obj\Debug\Kanban_test_project.csprojAssemblyReference.cache
+D:\My Project\RiderProjects\Kanban-project\Kanban_test_project\obj\Debug\Kanban_test_project.Properties.Resources.resources
+D:\My Project\RiderProjects\Kanban-project\Kanban_test_project\obj\Debug\Kanban_test_project.csproj.GenerateResource.cache
+D:\My Project\RiderProjects\Kanban-project\Kanban_test_project\obj\Debug\Kanban_test_project.csproj.CoreCompileInputs.cache
+D:\My Project\RiderProjects\Kanban-project\Kanban_test_project\obj\Debug\Kanban_test_project.exe
+D:\My Project\RiderProjects\Kanban-project\Kanban_test_project\obj\Debug\Kanban_test_project.pdb
+D:\My Project\RiderProjects\Kanban-project\Kanban_test_project\obj\Debug\Kanban_test_project.Form1.resources
