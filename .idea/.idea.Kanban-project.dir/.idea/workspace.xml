@@ -23,13 +23,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ecaace3-1700-4852-9bf1-8118d58a2c60" name="Default Changelist" comment="new form" />
+    <list default="true" id="3ecaace3-1700-4852-9bf1-8118d58a2c60" name="Default Changelist" comment="New project" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Pash" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -42,6 +47,8 @@
         <option value="$PROJECT_DIR$/Kanban_test_project/Form1.cs" />
         <option value="$PROJECT_DIR$/Kanban_test_project/Form2.cs" />
         <option value="$PROJECT_DIR$/Test/Form1.cs" />
+        <option value="$PROJECT_DIR$/Kanban_project/Form1.cs" />
+        <option value="$PROJECT_DIR$/Kanban_project/Form1.Designer.cs" />
       </list>
     </option>
   </component>
@@ -172,7 +179,8 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Создал проект под тест" />
     <MESSAGE value="new form" />
-    <option name="LAST_COMMIT_MESSAGE" value="new form" />
+    <MESSAGE value="New project" />
+    <option name="LAST_COMMIT_MESSAGE" value="New project" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1619442892212">
