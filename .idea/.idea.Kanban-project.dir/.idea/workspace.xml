@@ -20,10 +20,60 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/main" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ecaace3-1700-4852-9bf1-8118d58a2c60" name="Default Changelist" comment="new form" />
+    <list default="true" id="3ecaace3-1700-4852-9bf1-8118d58a2c60" name="Default Changelist" comment="2">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Kanban-project.dir/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Kanban-project.dir/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kanban_test_project/App.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kanban_test_project/Form1.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kanban_test_project/Form1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kanban_test_project/Form1.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kanban_test_project/Form2.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kanban_test_project/Form2.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kanban_test_project/Form2.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kanban_test_project/FormNata.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kanban_test_project/FormNata.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kanban_test_project/FormNata.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kanban_test_project/Kanban_test_project.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kanban_test_project/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kanban_test_project/Properties/AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kanban_test_project/Properties/Resources.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kanban_test_project/Properties/Resources.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kanban_test_project/Properties/Settings.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kanban_test_project/Properties/Settings.settings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kanban_test_project/bin/Debug/Kanban_test_project.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kanban_test_project/bin/Debug/Kanban_test_project.exe.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kanban_test_project/bin/Debug/Kanban_test_project.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kanban_test_project/obj/Debug/DesignTimeResolveAssemblyReferences.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kanban_test_project/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kanban_test_project/obj/Debug/Kanban_test_project.Form1.resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kanban_test_project/obj/Debug/Kanban_test_project.Properties.Resources.resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kanban_test_project/obj/Debug/Kanban_test_project.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kanban_test_project/obj/Debug/Kanban_test_project.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kanban_test_project/obj/Debug/Kanban_test_project.csproj.GenerateResource.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kanban_test_project/obj/Debug/Kanban_test_project.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kanban_test_project/obj/Debug/Kanban_test_project.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kanban_test_project/obj/Debug/Kanban_test_project.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/App.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Form1.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Form1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Properties/AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Properties/Resources.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Properties/Resources.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Properties/Settings.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Properties/Settings.settings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/Test.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/obj/Debug/Test.csprojAssemblyReference.cache" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,9 +89,9 @@
         <option value="$PROJECT_DIR$/test.resx" />
         <option value="$PROJECT_DIR$/Test_Project/Tests.cs" />
         <option value="$PROJECT_DIR$/Kanban_test_project/Program.cs" />
-        <option value="$PROJECT_DIR$/Kanban_test_project/Form1.cs" />
         <option value="$PROJECT_DIR$/Kanban_test_project/Form2.cs" />
         <option value="$PROJECT_DIR$/Test/Form1.cs" />
+        <option value="$PROJECT_DIR$/Kanban_test_project/Form1.cs" />
       </list>
     </option>
   </component>
@@ -136,30 +186,51 @@
       <option name="project" value="LOCAL" />
       <updated>1619442876675</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="2">
+      <created>1619537015341</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1619537015341</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Создал проект под тест" />
     <MESSAGE value="new form" />
-    <option name="LAST_COMMIT_MESSAGE" value="new form" />
+    <MESSAGE value="2" />
+    <option name="LAST_COMMIT_MESSAGE" value="2" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1619442892212">
@@ -178,13 +249,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1619442892212" />
-    <state x="552" y="252" key="Rider.ProjectTemplateDialog.Size" timestamp="1619442825139">
+    <state x="552" y="252" key="Rider.ProjectTemplateDialog.Size" timestamp="1619537118024">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Rider.ProjectTemplateDialog.Size/0.0.1920.1040@0.0.1920.1040" timestamp="1619442825139" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1619442882307">
+    <state x="552" y="252" key="Rider.ProjectTemplateDialog.Size/0.0.1920.1040@0.0.1920.1040" timestamp="1619537118024" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1619537020000">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1619442882307" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1619537020000" />
   </component>
 </project>
