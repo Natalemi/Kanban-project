@@ -8,3 +8,15 @@ D:\My Project\RiderProjects\Kanban-project\Kanban_test_project\obj\Debug\Kanban_
 D:\My Project\RiderProjects\Kanban-project\Kanban_test_project\obj\Debug\Kanban_test_project.exe
 D:\My Project\RiderProjects\Kanban-project\Kanban_test_project\obj\Debug\Kanban_test_project.pdb
 D:\My Project\RiderProjects\Kanban-project\Kanban_test_project\obj\Debug\Kanban_test_project.Form1.resources
+C:\Users\hp\source\repos\Kanban-project\Kanban_test_project\bin\Debug\Kanban_test_project.exe.config
+C:\Users\hp\source\repos\Kanban-project\Kanban_test_project\bin\Debug\Kanban_test_project.exe
+C:\Users\hp\source\repos\Kanban-project\Kanban_test_project\bin\Debug\Kanban_test_project.pdb
+C:\Users\hp\source\repos\Kanban-project\Kanban_test_project\obj\Debug\Kanban_test_project.csprojAssemblyReference.cache
+C:\Users\hp\source\repos\Kanban-project\Kanban_test_project\obj\Debug\Kanban_test_project.Form1.resources
+C:\Users\hp\source\repos\Kanban-project\Kanban_test_project\obj\Debug\Kanban_test_project.Form2.resources
+C:\Users\hp\source\repos\Kanban-project\Kanban_test_project\obj\Debug\Kanban_test_project.FormNata.resources
+C:\Users\hp\source\repos\Kanban-project\Kanban_test_project\obj\Debug\Kanban_test_project.Properties.Resources.resources
+C:\Users\hp\source\repos\Kanban-project\Kanban_test_project\obj\Debug\Kanban_test_project.csproj.GenerateResource.cache
+C:\Users\hp\source\repos\Kanban-project\Kanban_test_project\obj\Debug\Kanban_test_project.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\Kanban-project\Kanban_test_project\obj\Debug\Kanban_test_project.exe
+C:\Users\hp\source\repos\Kanban-project\Kanban_test_project\obj\Debug\Kanban_test_project.pdb
