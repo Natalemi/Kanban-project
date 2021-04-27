@@ -8,3 +8,13 @@ D:\My Project\RiderProjects\Kanban-project\Kanban_project\obj\Debug\Kanban_proje
 D:\My Project\RiderProjects\Kanban-project\Kanban_project\obj\Debug\Kanban_project.exe
 D:\My Project\RiderProjects\Kanban-project\Kanban_project\obj\Debug\Kanban_project.pdb
 D:\My Project\RiderProjects\Kanban-project\Kanban_project\obj\Debug\Kanban_project.Form1.resources
+C:\Users\hp\source\repos\Kanban-project\Kanban_project\bin\Debug\Kanban_project.exe.config
+C:\Users\hp\source\repos\Kanban-project\Kanban_project\bin\Debug\Kanban_project.exe
+C:\Users\hp\source\repos\Kanban-project\Kanban_project\bin\Debug\Kanban_project.pdb
+C:\Users\hp\source\repos\Kanban-project\Kanban_project\obj\Debug\Kanban_project.csprojAssemblyReference.cache
+C:\Users\hp\source\repos\Kanban-project\Kanban_project\obj\Debug\Kanban_project.Form1.resources
+C:\Users\hp\source\repos\Kanban-project\Kanban_project\obj\Debug\Kanban_project.Properties.Resources.resources
+C:\Users\hp\source\repos\Kanban-project\Kanban_project\obj\Debug\Kanban_project.csproj.GenerateResource.cache
+C:\Users\hp\source\repos\Kanban-project\Kanban_project\obj\Debug\Kanban_project.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\Kanban-project\Kanban_project\obj\Debug\Kanban_project.exe
+C:\Users\hp\source\repos\Kanban-project\Kanban_project\obj\Debug\Kanban_project.pdb
