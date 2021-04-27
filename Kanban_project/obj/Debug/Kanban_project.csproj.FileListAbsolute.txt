@@ -18,3 +18,13 @@ C:\Users\hp\source\repos\Kanban-project\Kanban_project\obj\Debug\Kanban_project.
 C:\Users\hp\source\repos\Kanban-project\Kanban_project\obj\Debug\Kanban_project.csproj.CoreCompileInputs.cache
 C:\Users\hp\source\repos\Kanban-project\Kanban_project\obj\Debug\Kanban_project.exe
 C:\Users\hp\source\repos\Kanban-project\Kanban_project\obj\Debug\Kanban_project.pdb
+F:\Kanban-project\Kanban_project\bin\Debug\Kanban_project.exe.config
+F:\Kanban-project\Kanban_project\bin\Debug\Kanban_project.exe
+F:\Kanban-project\Kanban_project\bin\Debug\Kanban_project.pdb
+F:\Kanban-project\Kanban_project\obj\Debug\Kanban_project.csprojAssemblyReference.cache
+F:\Kanban-project\Kanban_project\obj\Debug\Kanban_project.Form1.resources
+F:\Kanban-project\Kanban_project\obj\Debug\Kanban_project.Properties.Resources.resources
+F:\Kanban-project\Kanban_project\obj\Debug\Kanban_project.csproj.GenerateResource.cache
+F:\Kanban-project\Kanban_project\obj\Debug\Kanban_project.csproj.CoreCompileInputs.cache
+F:\Kanban-project\Kanban_project\obj\Debug\Kanban_project.exe
+F:\Kanban-project\Kanban_project\obj\Debug\Kanban_project.pdb
