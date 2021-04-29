@@ -43,6 +43,7 @@
             this.наСоответствиеToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.вводСловаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.domainUpDown1 = new System.Windows.Forms.DomainUpDown();
             this.contextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -177,11 +178,25 @@
             this.вводСловаToolStripMenuItem.Size = new System.Drawing.Size(314, 22);
             this.вводСловаToolStripMenuItem.Text = "Ввод слова";
             // 
+            // domainUpDown1
+            // 
+            this.domainUpDown1.Items.Add("Истина/Ложь");
+            this.domainUpDown1.Items.Add("Несколько вариантов и один ответ");
+            this.domainUpDown1.Items.Add("Множество вариантов и несколько ответов");
+            this.domainUpDown1.Items.Add("На соответствие");
+            this.domainUpDown1.Items.Add("Ввод слова");
+            this.domainUpDown1.Location = new System.Drawing.Point(685, 207);
+            this.domainUpDown1.Name = "domainUpDown1";
+            this.domainUpDown1.ReadOnly = true;
+            this.domainUpDown1.Size = new System.Drawing.Size(120, 20);
+            this.domainUpDown1.TabIndex = 10;
+            // 
             // FormCreateTest
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(984, 524);
+            this.Controls.Add(this.domainUpDown1);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.label3);
@@ -214,5 +229,6 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.ToolStripMenuItem вводСловаToolStripMenuItem;
         private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.DomainUpDown domainUpDown1;
     }
 }
