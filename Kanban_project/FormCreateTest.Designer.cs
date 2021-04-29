@@ -138,7 +138,7 @@
             "Множество вариантов и несколько ответов",
             "Ввод слова",
             "На соответствие"});
-            this.comboBox1.Location = new System.Drawing.Point(164, 112);
+            this.comboBox1.Location = new System.Drawing.Point(154, 112);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(264, 32);
             this.comboBox1.TabIndex = 11;
@@ -193,6 +193,7 @@
             this.button3.TabIndex = 13;
             this.button3.Text = "Добавить вопрос";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // groupBox2
             // 
@@ -434,7 +435,7 @@
             // textBox13
             // 
             this.textBox13.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox13.Location = new System.Drawing.Point(835, 64);
+            this.textBox13.Location = new System.Drawing.Point(835, 59);
             this.textBox13.Multiline = true;
             this.textBox13.Name = "textBox13";
             this.textBox13.Size = new System.Drawing.Size(36, 29);
@@ -454,7 +455,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label5.Location = new System.Drawing.Point(813, 71);
+            this.label5.Location = new System.Drawing.Point(813, 66);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(16, 18);
             this.label5.TabIndex = 23;
