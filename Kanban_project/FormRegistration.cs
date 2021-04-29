@@ -21,14 +21,14 @@ namespace Kanban_project
             if (radioButton1.Checked)
             {
                 Form FormPupil = new FormPupil();
-                FormPupil.ShowDialog();
                 this.Hide();
+                FormPupil.ShowDialog();
             }
             else if (radioButton2.Checked)
             {
                 Form FormTeacher = new FormTeacher();
-                FormTeacher.ShowDialog();
                 this.Hide();
+                FormTeacher.ShowDialog();
             }
         }
     }
