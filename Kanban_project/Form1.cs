@@ -20,8 +20,9 @@ namespace Kanban_project
         private void button1_Click(object sender, EventArgs e)
         {
             Form FormRegistration = new FormRegistration();
-            FormRegistration.ShowDialog();
             this.Hide();
+            FormRegistration.ShowDialog();
+            
         }
     }
 }
