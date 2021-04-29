@@ -18,3 +18,4 @@ C:\Users\hp\source\repos\Kanban-project\Kanban_project\obj\Debug\Kanban_project.
 C:\Users\hp\source\repos\Kanban-project\Kanban_project\obj\Debug\Kanban_project.csproj.CoreCompileInputs.cache
 C:\Users\hp\source\repos\Kanban-project\Kanban_project\obj\Debug\Kanban_project.exe
 C:\Users\hp\source\repos\Kanban-project\Kanban_project\obj\Debug\Kanban_project.pdb
+C:\Users\hp\source\repos\Kanban-project\Kanban_project\obj\Debug\Kanban_project.FormRegistration.resources

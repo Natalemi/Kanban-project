@@ -19,15 +19,9 @@ namespace Kanban_project
 
         private void button1_Click(object sender, EventArgs e)
         {
-            label1.Visible = true;
-            label2.Visible = true;
-            label3.Visible = true;
-            label4.Visible = true;
-            label5.Visible = true;
-            textBox1.Visible = true;
-            panel1.Visible = true;
-            panel2.Visible = true;
-            button2.Visible = true;
+            Form FormRegistration = new FormRegistration();
+            FormRegistration.ShowDialog();
+            this.Hide();
         }
     }
 }
