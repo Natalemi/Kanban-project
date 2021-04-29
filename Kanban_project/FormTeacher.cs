@@ -20,7 +20,7 @@ namespace Kanban_project
         {
             Form FormCreateTest = new FormCreateTest();
             this.Hide();
-            //FormCreateTest.ShowDialog();
+            FormCreateTest.ShowDialog();
         }
     }
 }

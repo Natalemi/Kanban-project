@@ -120,11 +120,11 @@
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button3.ForeColor = System.Drawing.SystemColors.Window;
-            this.button3.Location = new System.Drawing.Point(229, 143);
+            this.button3.Location = new System.Drawing.Point(657, 225);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(103, 42);
+            this.button3.Size = new System.Drawing.Size(223, 42);
             this.button3.TabIndex = 8;
-            this.button3.Text = "Вход";
+            this.button3.Text = "Выбор типа";
             this.button3.UseVisualStyleBackColor = false;
             // 
             // истинаЛожьToolStripMenuItem
@@ -159,16 +159,18 @@
             // 
             // listBox1
             // 
+            this.listBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.listBox1.FormattingEnabled = true;
+            this.listBox1.ItemHeight = 24;
             this.listBox1.Items.AddRange(new object[] {
             "Истина/Ложь",
             "Несколько вариантов и один ответ",
             "Множество вариантов и несколько ответов",
             "На соответствие",
             "Ввод слова"});
-            this.listBox1.Location = new System.Drawing.Point(361, 143);
+            this.listBox1.Location = new System.Drawing.Point(203, 143);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(252, 108);
+            this.listBox1.Size = new System.Drawing.Size(418, 124);
             this.listBox1.TabIndex = 9;
             this.listBox1.TabStop = false;
             // 
@@ -185,7 +187,7 @@
             this.domainUpDown1.Items.Add("Множество вариантов и несколько ответов");
             this.domainUpDown1.Items.Add("На соответствие");
             this.domainUpDown1.Items.Add("Ввод слова");
-            this.domainUpDown1.Location = new System.Drawing.Point(685, 207);
+            this.domainUpDown1.Location = new System.Drawing.Point(657, 153);
             this.domainUpDown1.Name = "domainUpDown1";
             this.domainUpDown1.ReadOnly = true;
             this.domainUpDown1.Size = new System.Drawing.Size(120, 20);
