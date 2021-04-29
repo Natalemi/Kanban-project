@@ -28,23 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.button3 = new System.Windows.Forms.Button();
-            this.истинаЛожьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.даНетToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.несколькоВариантовИОдинОтветToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.множествоВариантовИНесколькоОтветовToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.наСоответствиеToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.listBox1 = new System.Windows.Forms.ListBox();
-            this.вводСловаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.domainUpDown1 = new System.Windows.Forms.DomainUpDown();
-            this.contextMenuStrip1.SuspendLayout();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // textBox1
@@ -101,85 +91,6 @@
             this.label3.TabIndex = 5;
             this.label3.Text = "Тип вопроса :";
             // 
-            // contextMenuStrip1
-            // 
-            this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.истинаЛожьToolStripMenuItem,
-            this.даНетToolStripMenuItem,
-            this.несколькоВариантовИОдинОтветToolStripMenuItem,
-            this.множествоВариантовИНесколькоОтветовToolStripMenuItem,
-            this.наСоответствиеToolStripMenuItem,
-            this.вводСловаToolStripMenuItem});
-            this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(315, 136);
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.DarkGreen;
-            this.button3.ContextMenuStrip = this.contextMenuStrip1;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button3.ForeColor = System.Drawing.SystemColors.Window;
-            this.button3.Location = new System.Drawing.Point(657, 225);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(223, 42);
-            this.button3.TabIndex = 8;
-            this.button3.Text = "Выбор типа";
-            this.button3.UseVisualStyleBackColor = false;
-            // 
-            // истинаЛожьToolStripMenuItem
-            // 
-            this.истинаЛожьToolStripMenuItem.Name = "истинаЛожьToolStripMenuItem";
-            this.истинаЛожьToolStripMenuItem.Size = new System.Drawing.Size(314, 22);
-            this.истинаЛожьToolStripMenuItem.Text = "Истина/Ложь";
-            // 
-            // даНетToolStripMenuItem
-            // 
-            this.даНетToolStripMenuItem.Name = "даНетToolStripMenuItem";
-            this.даНетToolStripMenuItem.Size = new System.Drawing.Size(314, 22);
-            this.даНетToolStripMenuItem.Text = "Да/Нет";
-            // 
-            // несколькоВариантовИОдинОтветToolStripMenuItem
-            // 
-            this.несколькоВариантовИОдинОтветToolStripMenuItem.Name = "несколькоВариантовИОдинОтветToolStripMenuItem";
-            this.несколькоВариантовИОдинОтветToolStripMenuItem.Size = new System.Drawing.Size(314, 22);
-            this.несколькоВариантовИОдинОтветToolStripMenuItem.Text = "Несколько вариантов и один ответ";
-            // 
-            // множествоВариантовИНесколькоОтветовToolStripMenuItem
-            // 
-            this.множествоВариантовИНесколькоОтветовToolStripMenuItem.Name = "множествоВариантовИНесколькоОтветовToolStripMenuItem";
-            this.множествоВариантовИНесколькоОтветовToolStripMenuItem.Size = new System.Drawing.Size(314, 22);
-            this.множествоВариантовИНесколькоОтветовToolStripMenuItem.Text = "Множество вариантов и несколько ответов";
-            // 
-            // наСоответствиеToolStripMenuItem
-            // 
-            this.наСоответствиеToolStripMenuItem.Name = "наСоответствиеToolStripMenuItem";
-            this.наСоответствиеToolStripMenuItem.Size = new System.Drawing.Size(314, 22);
-            this.наСоответствиеToolStripMenuItem.Text = "На соответствие";
-            // 
-            // listBox1
-            // 
-            this.listBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 24;
-            this.listBox1.Items.AddRange(new object[] {
-            "Истина/Ложь",
-            "Несколько вариантов и один ответ",
-            "Множество вариантов и несколько ответов",
-            "На соответствие",
-            "Ввод слова"});
-            this.listBox1.Location = new System.Drawing.Point(203, 143);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(418, 124);
-            this.listBox1.TabIndex = 9;
-            this.listBox1.TabStop = false;
-            // 
-            // вводСловаToolStripMenuItem
-            // 
-            this.вводСловаToolStripMenuItem.Name = "вводСловаToolStripMenuItem";
-            this.вводСловаToolStripMenuItem.Size = new System.Drawing.Size(314, 22);
-            this.вводСловаToolStripMenuItem.Text = "Ввод слова";
-            // 
             // domainUpDown1
             // 
             this.domainUpDown1.Items.Add("Истина/Ложь");
@@ -187,20 +98,34 @@
             this.domainUpDown1.Items.Add("Множество вариантов и несколько ответов");
             this.domainUpDown1.Items.Add("На соответствие");
             this.domainUpDown1.Items.Add("Ввод слова");
-            this.domainUpDown1.Location = new System.Drawing.Point(657, 153);
+            this.domainUpDown1.Location = new System.Drawing.Point(760, 368);
             this.domainUpDown1.Name = "domainUpDown1";
             this.domainUpDown1.ReadOnly = true;
             this.domainUpDown1.Size = new System.Drawing.Size(120, 20);
             this.domainUpDown1.TabIndex = 10;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Истина/Ложь",
+            "Несколько вариантов и один ответ",
+            "Множество вариантов и несколько ответов",
+            "На соответствие",
+            "Ввод слова"});
+            this.comboBox1.Location = new System.Drawing.Point(203, 143);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(264, 33);
+            this.comboBox1.TabIndex = 11;
             // 
             // FormCreateTest
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(984, 524);
+            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.domainUpDown1);
-            this.Controls.Add(this.listBox1);
-            this.Controls.Add(this.button3);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.label2);
@@ -209,7 +134,6 @@
             this.Name = "FormCreateTest";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormCreateTest";
-            this.contextMenuStrip1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -222,15 +146,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem истинаЛожьToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem даНетToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem несколькоВариантовИОдинОтветToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem множествоВариантовИНесколькоОтветовToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem наСоответствиеToolStripMenuItem;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.ToolStripMenuItem вводСловаToolStripMenuItem;
-        private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.DomainUpDown domainUpDown1;
+        private System.Windows.Forms.ComboBox comboBox1;
     }
 }
