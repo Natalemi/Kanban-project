@@ -28,3 +28,7 @@ F:\Kanban-project\Kanban_project\obj\Debug\Kanban_project.csproj.GenerateResourc
 F:\Kanban-project\Kanban_project\obj\Debug\Kanban_project.csproj.CoreCompileInputs.cache
 F:\Kanban-project\Kanban_project\obj\Debug\Kanban_project.exe
 F:\Kanban-project\Kanban_project\obj\Debug\Kanban_project.pdb
+D:\My Project\RiderProjects\Kanban-project\Kanban_project\obj\Debug\Kanban_project.FormCreateTest.resources
+D:\My Project\RiderProjects\Kanban-project\Kanban_project\obj\Debug\Kanban_project.FormPupil.resources
+D:\My Project\RiderProjects\Kanban-project\Kanban_project\obj\Debug\Kanban_project.FormRegistration.resources
+D:\My Project\RiderProjects\Kanban-project\Kanban_project\obj\Debug\Kanban_project.FormTeacher.resources
