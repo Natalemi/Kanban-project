@@ -36,3 +36,7 @@ F:\zx\Kanban_project\bin\Debug\Kanban_project.exe
 F:\zx\Kanban_project\bin\Debug\Kanban_project.pdb
 F:\zx\Kanban_project\obj\Debug\Kanban_project.exe
 C:\Users\hp\source\repos\Kanban-project\Kanban_project\obj\Debug\Kanban_project.FormPupil.resources
+D:\My Project\RiderProjects\Kanban-project\Kanban_project\obj\Debug\Kanban_project.FormCreateTest.resources
+D:\My Project\RiderProjects\Kanban-project\Kanban_project\obj\Debug\Kanban_project.FormPupil.resources
+D:\My Project\RiderProjects\Kanban-project\Kanban_project\obj\Debug\Kanban_project.FormRegistration.resources
+D:\My Project\RiderProjects\Kanban-project\Kanban_project\obj\Debug\Kanban_project.FormTeacher.resources

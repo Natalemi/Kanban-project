@@ -20,5 +20,10 @@ namespace Kanban_project
         {
 
         }
+
+        private void FormPupil_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

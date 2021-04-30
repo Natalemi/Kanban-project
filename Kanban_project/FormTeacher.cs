@@ -22,5 +22,10 @@ namespace Kanban_project
             this.Hide();
             FormCreateTest.ShowDialog();
         }
+
+        private void FormTeacher_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

@@ -151,5 +151,10 @@ namespace Kanban_project
                 button2.Location = new Point(button2.Location.X, button2.Location.Y + 37);
             }
         }
+
+        private void FormCreateTest_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

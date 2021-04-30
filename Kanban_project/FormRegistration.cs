@@ -31,5 +31,10 @@ namespace Kanban_project
                 FormTeacher.ShowDialog();
             }
         }
+
+        private void FormRegistration_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
