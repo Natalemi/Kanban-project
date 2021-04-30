@@ -24,5 +24,19 @@ namespace Kanban_project
             FormRegistration.ShowDialog();
             
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            if (textBox1.Text == "Учитель") {
+                Form FormTeacher = new FormTeacher();
+                this.Hide();
+                FormTeacher.ShowDialog();
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Паша Фень\nНаталия Лемиш\nАлексей Нелепа\nДанил Гращенков\nНикита Бородин");
+        }
     }
 }

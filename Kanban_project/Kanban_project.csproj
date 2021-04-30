@@ -84,6 +84,9 @@
     <EmbeddedResource Include="FormCreateTest.resx">
       <DependentUpon>FormCreateTest.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormPupil.resx">
+      <DependentUpon>FormPupil.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormRegistration.resx">
       <DependentUpon>FormRegistration.cs</DependentUpon>
     </EmbeddedResource>
