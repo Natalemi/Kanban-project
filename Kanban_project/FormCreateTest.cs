@@ -38,6 +38,12 @@ namespace Kanban_project
             textBox12.Text = null;
             textBox13.Text = null;
             comboBox1.Text = null;
+            radioButton1.Checked = false;
+            radioButton2.Checked = false;
+            radioButton3.Checked = false;
+            radioButton4.Checked = false;
+            checkBox1.Checked = false;
+            checkBox2.Checked = false;
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -88,8 +94,62 @@ namespace Kanban_project
         {
             MessageBox.Show("Тест успешно сохранён. Его можно найти в 'Мои тесты'");
             Form FormTeacher = new FormTeacher();
+            // закрыть эту форму
             this.Hide();
             FormTeacher.ShowDialog();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if(textBox14.Visible == false) {
+                textBox14.Visible = true;
+                radioButton5.Visible = true;
+                button1.Location = new Point(button1.Location.X, button1.Location.Y + 37);
+            }
+            else if (textBox15.Visible == false) {
+                textBox15.Visible = true;
+                radioButton6.Visible = true;
+                button1.Location = new Point(button1.Location.X, button1.Location.Y + 37);
+            }
+            else if (textBox16.Visible == false) {
+                textBox16.Visible = true;
+                radioButton7.Visible = true;
+                button1.Location = new Point(button1.Location.X, button1.Location.Y + 37);
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (textBox17.Visible == false) {
+                textBox17.Visible = true;
+                checkBox3.Visible = true;
+                button2.Location = new Point(button2.Location.X, button2.Location.Y + 37);
+            }
+            else if (textBox18.Visible == false) {
+                textBox18.Visible = true;
+                checkBox4.Visible = true;
+                button2.Location = new Point(button2.Location.X, button2.Location.Y + 37);
+            }
+            else if (textBox19.Visible == false) {
+                textBox19.Visible = true;
+                checkBox5.Visible = true;
+                button2.Location = new Point(button2.Location.X, button2.Location.Y + 37);
+            }
+            else if (textBox20.Visible == false) {
+                textBox20.Visible = true;
+                checkBox6.Visible = true;
+                button2.Location = new Point(button2.Location.X, button2.Location.Y + 37);
+            }
+            else if (textBox21.Visible == false) {
+                textBox21.Visible = true;
+                checkBox7.Visible = true;
+                button2.Location = new Point(button2.Location.X, button2.Location.Y + 37);
+            }
+            else if (textBox22.Visible == false) {
+                textBox22.Visible = true;
+                checkBox8.Visible = true;
+                button2.Location = new Point(button2.Location.X, button2.Location.Y + 37);
+            }
         }
     }
 }
