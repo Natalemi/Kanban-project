@@ -86,7 +86,7 @@
             this.panel1.Controls.Add(this.button3);
             this.panel1.Controls.Add(this.button1);
             this.panel1.Enabled = false;
-            this.panel1.Location = new System.Drawing.Point(-1, 57);
+            this.panel1.Location = new System.Drawing.Point(-1, 61);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(341, 538);
             this.panel1.TabIndex = 11;
