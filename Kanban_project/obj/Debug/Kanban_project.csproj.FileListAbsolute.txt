@@ -32,3 +32,31 @@ D:\My Project\RiderProjects\Kanban-project\Kanban_project\obj\Debug\Kanban_proje
 D:\My Project\RiderProjects\Kanban-project\Kanban_project\obj\Debug\Kanban_project.FormPupil.resources
 D:\My Project\RiderProjects\Kanban-project\Kanban_project\obj\Debug\Kanban_project.FormRegistration.resources
 D:\My Project\RiderProjects\Kanban-project\Kanban_project\obj\Debug\Kanban_project.FormTeacher.resources
+F:\C#\Kanban_project\bin\Debug\Kanban_project.exe.config
+F:\C#\Kanban_project\bin\Debug\Kanban_project.exe
+F:\C#\Kanban_project\bin\Debug\Kanban_project.pdb
+F:\C#\Kanban_project\obj\Debug\Kanban_project.csprojAssemblyReference.cache
+F:\C#\Kanban_project\obj\Debug\Kanban_project.Form1.resources
+F:\C#\Kanban_project\obj\Debug\Kanban_project.FormCreateTest.resources
+F:\C#\Kanban_project\obj\Debug\Kanban_project.FormPupil.resources
+F:\C#\Kanban_project\obj\Debug\Kanban_project.FormRegistration.resources
+F:\C#\Kanban_project\obj\Debug\Kanban_project.FormTeacher.resources
+F:\C#\Kanban_project\obj\Debug\Kanban_project.Properties.Resources.resources
+F:\C#\Kanban_project\obj\Debug\Kanban_project.csproj.GenerateResource.cache
+F:\C#\Kanban_project\obj\Debug\Kanban_project.csproj.CoreCompileInputs.cache
+F:\C#\Kanban_project\obj\Debug\Kanban_project.exe
+F:\C#\Kanban_project\obj\Debug\Kanban_project.pdb
+F:\C#\Kanban_project\bin\Debug\MySql.Data.dll
+F:\C#\Kanban_project\bin\Debug\Google.Protobuf.dll
+F:\C#\Kanban_project\bin\Debug\Zstandard.Net.dll
+F:\C#\Kanban_project\bin\Debug\K4os.Compression.LZ4.Streams.dll
+F:\C#\Kanban_project\bin\Debug\BouncyCastle.Crypto.dll
+F:\C#\Kanban_project\bin\Debug\Ubiety.Dns.Core.dll
+F:\C#\Kanban_project\bin\Debug\System.Memory.dll
+F:\C#\Kanban_project\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+F:\C#\Kanban_project\bin\Debug\System.Buffers.dll
+F:\C#\Kanban_project\bin\Debug\K4os.Compression.LZ4.dll
+F:\C#\Kanban_project\bin\Debug\K4os.Hash.xxHash.dll
+F:\C#\Kanban_project\bin\Debug\MySql.Data.xml
+F:\C#\Kanban_project\obj\Debug\Kanban_project.exe.config
+F:\C#\Kanban_project\obj\Debug\Kanban_project.csproj.CopyComplete
