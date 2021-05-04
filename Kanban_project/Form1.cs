@@ -13,14 +13,10 @@ namespace Kanban_project
 {
     public partial class Form1 : Form
     {
-        Conection con;
+
         public Form1()
         {
-            System.Diagnostics.Debug.WriteLine("запуск");
             InitializeComponent();
-            con = new Conection();
-            con.Open();
-            System.Diagnostics.Debug.WriteLine("запуск стоп");
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -33,10 +29,9 @@ namespace Kanban_project
 
         private void button3_Click(object sender, EventArgs e)
         {
-            string email = emailField.Text;
-            string password = passwordField.Text;
-            string query = "SELECT * FROM users WHERE email = ‘" + email + "’ and password = ‘" + password + "’ LIMIT 1;";
-            System.Diagnostics.Debug.WriteLine(query);
+
+            String email = emailField.Text;
+            String password = passwordField.Text;
 
             if (email == "")
             {
@@ -49,22 +44,32 @@ namespace Kanban_project
                 return;
             }
 
-            try
+           
+            // код который может выбросить ошибку 
+            Conection con = new Conection();
+            con.Open();
+            DataTable table = new DataTable();
+
+            MySqlDataAdapter adapter = new MySqlDataAdapter();
+
+            MySqlCommand command = new MySqlCommand("SELECT * FROM users WHERE email = ‘" + email +"’ AND password = ‘" + password + "’ LIMIT 1;", con.getConnection());
+            System.Diagnostics.Debug.WriteLine(command);
+
+
+            adapter.SelectCommand = command;
+            adapter.Fill(table);
+
+
+            if (table.Rows.Count > 0)
             {
-                // код который может выбросить ошибку  
-                if (con.ExecuteReader(query).Read())
-                {
-                    FormTeacher FormTeacher = new FormTeacher();
-                    FormTeacher.Show();
-                    //this.Close();
-                }
+                MessageBox.Show("РАБОТАЕТ");
             }
-            catch (Exception ex)
+            else
             {
-                // код который должен выполнится если произошла ошибка, мы отображаем сообщение про ошибку
-                MessageBox.Show(ex.Message);
+                MessageBox.Show("Не хочет");
             }
-            con.Close();
+     
+
         }
 
         private void button2_Click(object sender, EventArgs e)
