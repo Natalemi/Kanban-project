@@ -52,8 +52,7 @@ namespace Kanban_project
 
             MySqlDataAdapter adapter = new MySqlDataAdapter();
 
-            MySqlCommand command = new MySqlCommand("SELECT * FROM users WHERE email = ‘" + email +"’ AND password = ‘" + password + "’ LIMIT 1;", con.getConnection());
-            System.Diagnostics.Debug.WriteLine(command);
+            MySqlCommand command = new MySqlCommand("SELECT * FROM users WHERE email = '" + email + "' AND password = '" + password + "' LIMIT 1;", con.getConnection());
 
 
             adapter.SelectCommand = command;
@@ -62,7 +61,27 @@ namespace Kanban_project
 
             if (table.Rows.Count > 0)
             {
+                UInt64 id = table.Rows[0].Field<UInt64>("id");
+                email = table.Rows[0].Field<string>("email");
+                password = table.Rows[0].Field<string>("password");
+                string name = table.Rows[0].Field<string>("name");
+                bool teacher = table.Rows[0].Field<bool>("teacher");
+
+                User user = new User(id, email,  password, name, teacher);
+                Program.InstalUser(user);
                 MessageBox.Show("РАБОТАЕТ");
+                if (teacher == true)
+                {
+                    Form FormTeacher = new FormTeacher();
+                    this.Hide();
+                    FormTeacher.Show();
+                }
+                else
+                {
+                    Form FormPupil = new FormPupil();
+                    this.Hide();
+                    FormPupil.Show();
+                }
             }
             else
             {
