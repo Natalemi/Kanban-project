@@ -25,5 +25,12 @@ namespace Kanban_project
         {
             Application.Exit();
         }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            Form Form1 = new Form1();
+            Form1.Show();
+            this.Close();
+        }
     }
 }
