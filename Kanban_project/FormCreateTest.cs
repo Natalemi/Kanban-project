@@ -13,6 +13,7 @@ namespace Kanban_project
     {
         public FormCreateTest() {
             InitializeComponent();
+
         }
 
         int groupBox() {
@@ -21,6 +22,7 @@ namespace Kanban_project
             groupBox3.Visible = false;
             groupBox4.Visible = false;
             groupBox5.Visible = false;
+
             return 0;
         }
 
@@ -46,30 +48,35 @@ namespace Kanban_project
             checkBox2.Checked = false;
         }
 
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        public void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (comboBox1.SelectedIndex == 0) {
                 groupBox();
+                groupBox1.BringToFront();
                 groupBox1.Visible = true;
             }
 
             else if (comboBox1.SelectedIndex == 1) {
                 groupBox();
+                groupBox2.BringToFront();
                 groupBox2.Visible = true;
             }
 
             else if (comboBox1.SelectedIndex == 2) {
                 groupBox();
+                groupBox3.BringToFront();
                 groupBox3.Visible = true;
             }
 
             else if (comboBox1.SelectedIndex == 3) {
                 groupBox();
+                groupBox4.BringToFront();
                 groupBox4.Visible = true;
             }
 
             else if (comboBox1.SelectedIndex == 4) {
                 groupBox();
+                groupBox5.BringToFront();
                 groupBox5.Visible = true;
             }
         }
@@ -82,6 +89,7 @@ namespace Kanban_project
 
             // сохранить в переменную textBox2
             cleareTextBox();
+            
 
             // сохранить в переменную правильные ответы
             groupBox();
@@ -99,62 +107,83 @@ namespace Kanban_project
             FormTeacher.ShowDialog();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        public void button1_Click(object sender, EventArgs e)
         {
-            if(textBox14.Visible == false) {
-                textBox14.Visible = true;
-                radioButton5.Visible = true;
-                button1.Location = new Point(button1.Location.X, button1.Location.Y + 37);
-            }
-            else if (textBox15.Visible == false) {
-                textBox15.Visible = true;
-                radioButton6.Visible = true;
-                button1.Location = new Point(button1.Location.X, button1.Location.Y + 37);
-            }
-            else if (textBox16.Visible == false) {
-                textBox16.Visible = true;
-                radioButton7.Visible = true;
-                button1.Location = new Point(button1.Location.X, button1.Location.Y + 37);
-            }
+            int x = button1.Location.X;
+            int y = button1.Location.Y;
+
+            TextBox textBox = new TextBox();
+            textBox.Size = textBox3.Size;
+
+            RadioButton radioButton = new RadioButton();
+            radioButton.Left = x - 21;
+            radioButton.Top = y - 5;
+
+            textBox.Left = x;
+            textBox.Top = y - 5;
+
+            groupBox2.Controls.Add(textBox);
+            groupBox2.Controls.Add(radioButton);
+
+            button1.Left = x;
+            button1.Top = y + 28;
+
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        public void button2_Click(object sender, EventArgs e)
         {
-            if (textBox17.Visible == false) {
-                textBox17.Visible = true;
-                checkBox3.Visible = true;
-                button2.Location = new Point(button2.Location.X, button2.Location.Y + 37);
-            }
-            else if (textBox18.Visible == false) {
-                textBox18.Visible = true;
-                checkBox4.Visible = true;
-                button2.Location = new Point(button2.Location.X, button2.Location.Y + 37);
-            }
-            else if (textBox19.Visible == false) {
-                textBox19.Visible = true;
-                checkBox5.Visible = true;
-                button2.Location = new Point(button2.Location.X, button2.Location.Y + 37);
-            }
-            else if (textBox20.Visible == false) {
-                textBox20.Visible = true;
-                checkBox6.Visible = true;
-                button2.Location = new Point(button2.Location.X, button2.Location.Y + 37);
-            }
-            else if (textBox21.Visible == false) {
-                textBox21.Visible = true;
-                checkBox7.Visible = true;
-                button2.Location = new Point(button2.Location.X, button2.Location.Y + 37);
-            }
-            else if (textBox22.Visible == false) {
-                textBox22.Visible = true;
-                checkBox8.Visible = true;
-                button2.Location = new Point(button2.Location.X, button2.Location.Y + 37);
-            }
+            int x = button2.Location.X;
+            int y = button2.Location.Y;
+
+            TextBox textBox = new TextBox();
+            textBox.Size = textBox3.Size;
+
+            CheckBox checkBox = new CheckBox();
+            checkBox.Left = x - 21;
+            checkBox.Top = y - 5;
+
+            textBox.Left = x;
+            textBox.Top = y - 5;
+
+            groupBox3.Controls.Add(textBox);
+            groupBox3.Controls.Add(checkBox);
+
+            button2.Left = x;
+            button2.Top = y + 28;
+
+
         }
 
         private void FormCreateTest_FormClosing(object sender, FormClosingEventArgs e)
         {
             Application.Exit();
+        }
+
+        private void FormCreateTest_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            int x = button1.Location.X;
+            int y = button1.Location.Y;
+
+            TextBox textBox = new TextBox();
+            textBox.Size = textBox3.Size;
+
+            textBox.Left = x;
+            textBox.Top = y - 5;
+
+            groupBox5.Controls.Add(textBox);
+
+            button1.Left = x;
+            button1.Top = y + 28;
+        }
+
+        private void textBox9_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

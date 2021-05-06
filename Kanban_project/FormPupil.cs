@@ -32,5 +32,12 @@ namespace Kanban_project
             Form1.Show();
             this.Close();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form formTesting = new FormTesting();
+            this.Hide();
+            formTesting.Show();
+        }
     }
 }

@@ -60,3 +60,4 @@ F:\C#\Kanban_project\bin\Debug\K4os.Hash.xxHash.dll
 F:\C#\Kanban_project\bin\Debug\MySql.Data.xml
 F:\C#\Kanban_project\obj\Debug\Kanban_project.exe.config
 F:\C#\Kanban_project\obj\Debug\Kanban_project.csproj.CopyComplete
+F:\C#\Kanban_project\obj\Debug\Kanban_project.FormTesting.resources
