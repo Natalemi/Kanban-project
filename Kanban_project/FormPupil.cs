@@ -39,5 +39,12 @@ namespace Kanban_project
             this.Hide();
             formTesting.Show();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            FormTable form = new FormTable();
+            this.Hide();
+            form.Show();
+        }
     }
 }

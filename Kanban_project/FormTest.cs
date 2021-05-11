@@ -16,14 +16,17 @@ namespace Kanban_project
 {
     public partial class FormTest : Form
     {
+        Conection con;
+
         List<Question> questions;
         int QuestionCounter;
         int Counter;
-        
+
         public FormTest()
         {
             InitializeComponent();
-            
+            con = new Conection();
+            con.Open();
         }
 
         int groupBox()
@@ -37,89 +40,183 @@ namespace Kanban_project
             return 0;
         }
 
+        void cleareTextBox()
+        {
+            textBox.Text = null;
+            textBox1.Text = null;
+            lots_textBox.Text = null;
+            lots_textBox1.Text = null;
+            lots_textBox2.Text = null;
+            word_Box.Text = null;
+            text_Box1.Text = null;
+            text_Box2.Text = null;
+            text_Box_a.Text = null;
+            text_Box_b.Text = null;
+            return_Box1.Text = null;
+            return_Box2.Text = null;
+            true_radioButton.Checked = false;
+            false_radioButton.Checked = false;
+            radioButton.Checked = false;
+            radioButton1.Checked = false;
+            checkBox.Checked = false;
+            checkBox1.Checked = false;
+            checkBox2.Checked = false;
+        }
+
         public void CheckQuestion()
         {
             Question question = this.questions[QuestionCounter];
+            QuestionCounter++;
+            if (question.type == "Множество вариантов и несколько ответов")
+            {
+                QuestionLogicMultipleMultiple questionLogicMultipleMultiple = JsonSerializer.Deserialize<QuestionLogicMultipleMultiple>(question.data);
+                if (questionLogicMultipleMultiple.Answer == checkBox.Checked)
+                {
+                    if (questionLogicMultipleMultiple.Answer1 == checkBox1.Checked)
+                    {
+                        if (questionLogicMultipleMultiple.Answer2 == checkBox2.Checked)
+                        {
+                            Counter++;
+                        }
+                    }
+                }
+            }
+            if (question.type == "Истина/Ложь")
+            {
+                QuestionLogic questionLogic = JsonSerializer.Deserialize<QuestionLogic>(question.data);
+                if (questionLogic.CorrectAnswer == true_radioButton.Checked)
+                {
+                    Counter++;
+                }
+            }
 
+            if (question.type == "Несколько вариантов и один ответ")
+            {
+                QuestionLogicTextMultipleOne questionLogicTextMultipleOne = JsonSerializer.Deserialize<QuestionLogicTextMultipleOne>(question.data);
+                if (questionLogicTextMultipleOne.CorrectAnswer == radioButton.Checked)
+                {
+                    Counter++;
+                }
+            }
+            if (question.type == "Ввод слова")
+            {
+                QuestionLogicText questionLogicText = JsonSerializer.Deserialize<QuestionLogicText>(question.data);
+                if (questionLogicText.CorrectAnswer == word_Box.Text)
+                {
+                    Counter++;
+                }
+            }
+            if (question.type == "На соответствие")
+            {
+                QuestionLogicConformity questionLogicConformity = JsonSerializer.Deserialize<QuestionLogicConformity>(question.data);
+                if (questionLogicConformity.Return_Box_1 == return_Box1.Text)
+                {
+                    if (questionLogicConformity.Return_Box_2 == return_Box2.Text)
+                    {
+                        Counter++;
+                    }
+                }
+            }
+            
         }
+
         public void ShowQuestions()
         {
 
             while (QuestionCounter < this.questions.Count)
             {
                 Question question = this.questions[QuestionCounter];
-                QuestionCounter++;
-                label4.Text = question.text;
+                
                 if (question.type == "Истина/Ложь")
                 {
-                    
+                    label4.Text = question.text;
                     QuestionLogic questionLogic = JsonSerializer.Deserialize<QuestionLogic>(question.data);
                     groupBox();
                     groupBox1.BringToFront();
                     groupBox1.Visible = true;
-                    if (question.type == "Истина/Ложь")
-                    {
-                        questionLogic.TrueAnswer = true_radioButton.Text;
-                        questionLogic.FalseAnswer = false_radioButton.Text;
-                        if (true_radioButton.Checked == questionLogic.CorrectAnswer)
-                        {
-                                                   
-                            Counter++;
-                            MessageBox.Show("+ 1 бал");
-                        
 
+                    true_radioButton.Text = questionLogic.TrueAnswer;
+                    false_radioButton.Text = questionLogic.FalseAnswer;
+                    return ;//выводим все что надо
 
-                        }
-
-
-                    }
-
-                    return;//выводим все что надо
                 }
                 if (question.type == "Несколько вариантов и один ответ")
                 {
+                    label4.Text = question.text;
                     QuestionLogicTextMultipleOne questionLogic = JsonSerializer.Deserialize<QuestionLogicTextMultipleOne>(question.data);
                     groupBox();
                     groupBox2.BringToFront();
                     groupBox2.Visible = true;
-                    // questionLogic.CorrectAnswer;
+
+                    textBox.Text = questionLogic.TrueAnswer;
+                    textBox1.Text = questionLogic.FalseAnswer;
 
                     return;//выводим все что надо
                 }
                 if (question.type == "Множество вариантов и несколько ответов")
                 {
+                    label4.Text = question.text;
                     QuestionLogicMultipleMultiple questionLogic = JsonSerializer.Deserialize<QuestionLogicMultipleMultiple>(question.data);
                     groupBox();
                     groupBox3.BringToFront();
                     groupBox3.Visible = true;
-                    // questionLogic.CorrectAnswer;
+                    lots_textBox.Text = questionLogic.Text;
+                    lots_textBox1.Text = questionLogic.Text1;
+                    lots_textBox2.Text = questionLogic.Text2;
 
-                    return;//выводим все что надо
+                    
+                    return ; //выводим все что надо
                 }
                 if (question.type == "Ввод слова")
                 {
+                    label4.Text = question.text;
                     QuestionLogicText questionLogic = JsonSerializer.Deserialize<QuestionLogicText>(question.data);
                     groupBox();
                     groupBox4.BringToFront();
                     groupBox4.Visible = true;
-                    // questionLogic.CorrectAnswer;
 
-                    return;//выводим все что надо
+                    
+                    return ;//выводим все что надо
                 }
                 if (question.type == "На соответствие")
                 {
+                    label4.Text = question.text;
                     QuestionLogicConformity questionLogic = JsonSerializer.Deserialize<QuestionLogicConformity>(question.data);
                     groupBox();
                     groupBox5.BringToFront();
                     groupBox5.Visible = true;
-                    // questionLogic.CorrectAnswer;
+                    text_Box1.Text = questionLogic.Text_Box_1;
+                    text_Box2.Text = questionLogic.Text_Box_2;
+                    text_Box_a.Text = questionLogic.Text_Box_a;
+                    text_Box_b.Text = questionLogic.Text_Box_b;
+
 
                     return;//выводим все что надо
                 }
-
             }
             // Вывести кколличесиво очков скколькко пользователь набрал
+            MessageBox.Show("Ваш бал = " + Convert.ToString(Counter));
+            string name = Program.user.name;
+            UInt64 ball = Convert.ToUInt64(Counter);
+            MySqlCommand query = new MySqlCommand("INSERT INTO tab(name, ball) VALUES (@name, @ball);", con.getConnection());
+            query.Parameters.AddWithValue("@name", name);
+            query.Parameters.AddWithValue("@ball", ball);
+            con.ExecuteNonQuery(query);
+
             // перевести на главную страницу
+            if (Program.user.teacher == true)
+            {
+                FormTeacher form = new FormTeacher();
+                this.Hide();
+                form.Show();
+            }
+            if(Program.user.teacher == false)
+            {
+                FormPupil form = new FormPupil();
+                this.Hide();
+                form.Show();
+            }
+            
             // очки будут в Counter
         }
 
@@ -131,7 +228,7 @@ namespace Kanban_project
 
             MySqlDataAdapter adapter = new MySqlDataAdapter();
 
-            MySqlCommand command = new MySqlCommand("SELECT * FROM question WHERE test_id = '" + Program.ActiveTest.id + "';", con.getConnection());
+            MySqlCommand command = new MySqlCommand("SELECT * FROM question WHERE test_id = '" + Program.ActiveTest.id + "' ORDER BY id;", con.getConnection());
 
             adapter.SelectCommand = command;
             adapter.Fill(table);
@@ -198,16 +295,19 @@ namespace Kanban_project
 
         private void button3_Click(object sender, EventArgs e)
         {
-            CheckQuestion();
 
+            CheckQuestion();
             ShowQuestions();
+
+
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
+            cleareTextBox();
             button1.Visible = false;
             button3.Visible = true;
-            CheckQuestion();
+
 
             ShowQuestions();
         }

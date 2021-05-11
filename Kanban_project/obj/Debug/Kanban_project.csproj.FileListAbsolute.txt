@@ -79,3 +79,4 @@ F:\C#\Kanban_project\bin\Debug\System.Text.Json.xml
 F:\C#\Kanban_project\bin\Debug\System.Threading.Tasks.Extensions.xml
 F:\C#\Kanban_project\bin\Debug\System.ValueTuple.xml
 F:\C#\Kanban_project\obj\Debug\Kanban_project.FormTest.resources
+F:\C#\Kanban_project\obj\Debug\Kanban_project.FormTable.resources

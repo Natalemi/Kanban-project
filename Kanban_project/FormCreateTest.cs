@@ -292,8 +292,6 @@ namespace Kanban_project
             MessageBox.Show("Тест успешно сохранён. Его можно найти в 'Мои тесты'");
             Form FormTeacher = new FormTeacher();
 
-            
-
             // закрыть эту форму
             this.Hide();
             FormTeacher.ShowDialog();

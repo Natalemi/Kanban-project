@@ -73,6 +73,7 @@
             this.button4.TabIndex = 15;
             this.button4.Text = "Посмотреть результаты";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // label1
             // 
