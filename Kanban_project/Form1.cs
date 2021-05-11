@@ -58,7 +58,7 @@ namespace Kanban_project
             adapter.SelectCommand = command;
             adapter.Fill(table);
 
-
+            
             if (table.Rows.Count > 0)
             {
                 UInt64 id = table.Rows[0].Field<UInt64>("id");
@@ -69,7 +69,7 @@ namespace Kanban_project
 
                 User user = new User(id, email,  password, name, teacher);
                 Program.InstalUser(user);
-                MessageBox.Show("РАБОТАЕТ");
+
                 if (teacher == true)
                 {
                     Form FormTeacher = new FormTeacher();

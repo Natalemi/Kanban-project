@@ -11,15 +11,22 @@ namespace Kanban_project
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
+        static public UInt64 testId { get; set; }
+        static public Test ActiveTest { get; set; }
         static public User user;
+
         static public User GetUser()
         {
             return user;
         }
+
         static public void InstalUser(User us)
         {
             user = us;
         }
+
+
+
 
         [STAThread]
         static void Main()

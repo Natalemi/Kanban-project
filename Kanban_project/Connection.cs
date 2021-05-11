@@ -26,7 +26,7 @@ namespace Kanban_project
                 strProvider.Close();
         }
  
-        public int ExecuteNonQuery(string sql)
+        public long ExecuteNonQuery(string sql)
         {
             try
             {
@@ -36,7 +36,8 @@ namespace Kanban_project
                 cmd.CommandText = sql;
                 affected = cmd.ExecuteNonQuery();
                 mytransaction.Commit();
-                return affected;
+                long id = cmd.LastInsertedId;
+                return id;
             }
             catch (Exception ex)
             {
@@ -49,5 +50,23 @@ namespace Kanban_project
             return strProvider;
         }
 
+        public long ExecuteNonQuery(MySqlCommand query)
+        {
+            try
+            {
+                int affected;
+                MySqlTransaction mytransaction = strProvider.BeginTransaction();
+                query.Transaction = mytransaction;
+                affected = query.ExecuteNonQuery();
+                mytransaction.Commit();
+                long id = query.LastInsertedId;
+                return id;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            return -1;
+        }
     }
 }
